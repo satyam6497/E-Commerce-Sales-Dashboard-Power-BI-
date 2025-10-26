@@ -8,7 +8,6 @@ The dashboard provides a high-level overview of sales, profit, and quantity sold
 
 Here is a look at the final sales dashboard:
 
-![E-Commerce Sales Dashboard](./Screenshot 2025-10-26 072051.jpg)
 <img width="1438" height="807" alt="Screenshot 2025-10-26 072728" src="https://github.com/user-attachments/assets/b5971fde-04e3-430a-90a5-7945d7846782" />
 
 
@@ -40,8 +39,6 @@ The data was loaded into Power BI and processed using the Power Query Editor.
 * **Merging Queries:** The primary transformation step was to **merge** the `Orders` and `Details` tables. This was done using the common `Order ID` column to create a single, unified table for analysis. This step combined the customer's location data with their purchase details.
 * **Data Cleaning:** Checked for and handled any null values or inconsistencies (though not explicitly shown, this is a standard step).
 
-![Merging Queries in Power Query](./Screenshot 2025-10-26 072728.png)
-*(You will need to have this image in your repository for it to display)*
 
 ### 3. DAX Calculations
 
